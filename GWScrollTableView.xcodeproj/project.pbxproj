@@ -19,6 +19,8 @@
 		8592646D1EB0745C005A6796 /* GWScrollTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8592646C1EB0745C005A6796 /* GWScrollTableViewController.m */; };
 		859264701EB1C267005A6796 /* GWTagCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8592646F1EB1C267005A6796 /* GWTagCollectionViewCell.m */; };
 		859264731EB1C28D005A6796 /* GWSubCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 859264721EB1C28D005A6796 /* GWSubCollectionViewCell.m */; };
+		85F934961EB81AB700E6BEB6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F934951EB81AB700E6BEB6 /* TestViewController.m */; };
+		85F934991EB827CC00E6BEB6 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F934981EB827CC00E6BEB6 /* SubViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		8592646F1EB1C267005A6796 /* GWTagCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWTagCollectionViewCell.m; sourceTree = "<group>"; };
 		859264711EB1C28D005A6796 /* GWSubCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSubCollectionViewCell.h; sourceTree = "<group>"; };
 		859264721EB1C28D005A6796 /* GWSubCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSubCollectionViewCell.m; sourceTree = "<group>"; };
+		85F934941EB81AB700E6BEB6 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		85F934951EB81AB700E6BEB6 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		85F934971EB827CC00E6BEB6 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		85F934981EB827CC00E6BEB6 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,10 @@
 				859264431EB0720E005A6796 /* LaunchScreen.storyboard */,
 				859264461EB0720E005A6796 /* Info.plist */,
 				859264351EB0720E005A6796 /* Supporting Files */,
+				85F934941EB81AB700E6BEB6 /* TestViewController.h */,
+				85F934951EB81AB700E6BEB6 /* TestViewController.m */,
+				85F934971EB827CC00E6BEB6 /* SubViewController.h */,
+				85F934981EB827CC00E6BEB6 /* SubViewController.m */,
 			);
 			path = GWScrollTableView;
 			sourceTree = "<group>";
@@ -323,9 +333,11 @@
 				8592646D1EB0745C005A6796 /* GWScrollTableViewController.m in Sources */,
 				855AC3311EB2D2E900E9D010 /* GWTagModel.m in Sources */,
 				859264731EB1C28D005A6796 /* GWSubCollectionViewCell.m in Sources */,
+				85F934991EB827CC00E6BEB6 /* SubViewController.m in Sources */,
 				8592643D1EB0720E005A6796 /* ViewController.m in Sources */,
 				859264701EB1C267005A6796 /* GWTagCollectionViewCell.m in Sources */,
 				8592643A1EB0720E005A6796 /* AppDelegate.m in Sources */,
+				85F934961EB81AB700E6BEB6 /* TestViewController.m in Sources */,
 				859264371EB0720E005A6796 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
